@@ -1,0 +1,15 @@
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.exe
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.csprojAssemblyReference.cache
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.AssemblyInfoInputs.cache
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.AssemblyInfo.cs
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.csproj.CoreCompileInputs.cache
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.deps.json
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.runtimeconfig.json
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.runtimeconfig.dev.json
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.dll
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Laboratorium4.pdb
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.csproj.CopyComplete
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.dll
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.pdb
+D:\Sweden and Job\Programmering\ITHS\Uppgift_4\LabFour\Laboratorium4\obj\Debug\netcoreapp3.1\Laboratorium4.genruntimeconfig.cache

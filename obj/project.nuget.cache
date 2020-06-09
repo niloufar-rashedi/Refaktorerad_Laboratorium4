@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "R6Nx/stmM1mC4dh7iWNl6t3g3lu5gM1YkojLf9Np2m+N4YNUQv5IcVw2yvETQezzl+XkRVsWHe5aVkDr9X/chw==",
+  "success": true,
+  "projectFilePath": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\Laboratorium4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

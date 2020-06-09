@@ -1,0 +1,102 @@
+[
+  {
+    "_producer": {
+      "Brand": "ICA"
+    },
+    "Products": null,
+    "ProductName": "Carpet",
+    "ProductId": 1,
+    "Price": 1229.9,
+    "InStock": 0,
+    "Shop": [
+      {
+        "ShopId": 0,
+        "ShopCity": "Lidköping"
+      },
+      {
+        "ShopId": 1,
+        "ShopCity": "Borås"
+      },
+      {
+        "ShopId": 3,
+        "ShopCity": "Stockholm"
+      }
+    ]
+  },
+  {
+    "_producer": {
+      "Brand": "Clas Ohlson"
+    },
+    "Products": null,
+    "ProductName": "Shampoo",
+    "ProductId": 2,
+    "Price": 189.9,
+    "InStock": 0,
+    "Shop": [
+      {
+        "ShopId": 4,
+        "ShopCity": "Kalmar"
+      },
+      {
+        "ShopId": 1,
+        "ShopCity": "Borås"
+      },
+      {
+        "ShopId": 3,
+        "ShopCity": "Stockholm"
+      }
+    ]
+  },
+  {
+    "_producer": {
+      "Brand": "Clas Ohlson"
+    },
+    "Products": null,
+    "ProductName": "Towel",
+    "ProductId": 3,
+    "Price": 89.9,
+    "InStock": 0,
+    "Shop": [
+      {
+        "ShopId": 4,
+        "ShopCity": "Kalmar"
+      },
+      {
+        "ShopId": 1,
+        "ShopCity": "Borås"
+      },
+      {
+        "ShopId": 3,
+        "ShopCity": "Stockholm"
+      }
+    ]
+  },
+  {
+    "_producer": {
+      "Brand": "ICA"
+    },
+    "Products": null,
+    "ProductName": "Tea Bag",
+    "ProductId": 3,
+    "Price": 89.9,
+    "InStock": 0,
+    "Shop": [
+      {
+        "ShopId": 2,
+        "ShopCity": "Lund"
+      },
+      {
+        "ShopId": 1,
+        "ShopCity": "Borås"
+      },
+      {
+        "ShopId": 3,
+        "ShopCity": "Stockholm"
+      },
+      {
+        "ShopId": 4,
+        "ShopCity": "Kalmar"
+      }
+    ]
+  }
+]
