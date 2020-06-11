@@ -2,11 +2,21 @@
 using Laboratorium4.Repositories;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Laboratorium4
 {
     class Program
-    {
+    {            
+
+        public static void RunProgram()
+        {
+            HelperClass() helperClass = new HelperClass();
+            if (!File.Exists(programPath))
+            {
+                File.Create(programPath);
+            }
+        }
         static void Main(string[] args)
         {
             IProductRepository productRepo = new ProductRepository();

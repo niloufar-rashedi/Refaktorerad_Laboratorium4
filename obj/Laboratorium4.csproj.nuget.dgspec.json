@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\Laboratorium4.csproj": {}
+    "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_5\\Test-cases-for-Uppgift-5\\ConsoleApp_Uppgift5\\Laboratorium4.csproj": {}
   },
   "projects": {
-    "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\Laboratorium4.csproj": {
+    "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_5\\Test-cases-for-Uppgift-5\\ConsoleApp_Uppgift5\\Laboratorium4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\Laboratorium4.csproj",
+        "projectUniqueName": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_5\\Test-cases-for-Uppgift-5\\ConsoleApp_Uppgift5\\Laboratorium4.csproj",
         "projectName": "Laboratorium4",
-        "projectPath": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\Laboratorium4.csproj",
+        "projectPath": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_5\\Test-cases-for-Uppgift-5\\ConsoleApp_Uppgift5\\Laboratorium4.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_4\\LabFour\\Refaktorerad_Laboratorium4\\obj\\",
+        "outputPath": "D:\\Sweden and Job\\Programmering\\ITHS\\Uppgift_5\\Test-cases-for-Uppgift-5\\ConsoleApp_Uppgift5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
