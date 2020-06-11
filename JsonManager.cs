@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Text.Json;
 
 namespace Laboratorium4
 {
@@ -12,7 +13,7 @@ namespace Laboratorium4
         {
             HelperClass helperC = new HelperClass();
             var path = GetUserHomePath();
-            var programPath = Path.Combine(path, "Lab4");
+            var programPath = Path.Combine(path, "Uppgift5");
             var jsonPath = Path.Combine(programPath, "Products.json");
 
             //Copying Josh's initial RunProgram() if-condition
@@ -37,22 +38,7 @@ namespace Laboratorium4
                 Environment.GetFolderPath(Environment.SpecialFolder.UserProfile,
                     Environment.SpecialFolderOption.DoNotVerify);
         }
-        //public static void RunProgram()
-        //{
-        //    if (!File.Exists(HelperClass().Run().programPath))
-        //    {
-        //        File.Create(programPath);
-        //    }
-        //}
-        public static void ProgramStart()
-        {
-            if (!Directory.Exists())
-            {
-                Directory.CreateDirectory(Json.programPath);
-            }
 
-            UI.MainMenuInterface();
-        }
         public IEnumerable<T> LoadFromJson<T>(string filePath)
         {
             var jsonString = File.ReadAllText(filePath);
@@ -62,7 +48,11 @@ namespace Laboratorium4
 
         public void SaveToJson<T>(string filePath, IEnumerable<T> records)
         {
-            var jsonString = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(records);
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            var jsonString = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(records, options);
             File.WriteAllBytes(filePath, jsonString);
         }
 

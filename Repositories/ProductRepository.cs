@@ -32,12 +32,24 @@ namespace Laboratorium4.Repositories
 
         public void Delete(Product product)
         {
-            po.Remove(product);
+            //Josh
+            var toBeDeleted = po.Find(m => m.ProductName.Contains(product.ProductName));
+            po.Remove(toBeDeleted);
             Save();
         }
 
         public void Insert(Product product)
         {
+
+            //Josh's version of Insert():
+                    //public void Insert(string name, decimal price, Manufacturer manufacturer)
+                    //{
+                    //    var product = new Product(name, price, manufacturer);
+                    //    ProductList.Add(product);
+                    //}
+            //I do not know if three parameters passed to the method are OK; This methos was supposed to take
+            //Product type of product... Though it can be good to use. 
+
             po.Add(product);
             Save();
         }

@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorium4", "Laboratorium4.csproj", "{9E1C2C6D-BA96-4222-B32D-D44A6F58F16B}"
+<<<<<<< HEAD:ConsoleApp_Uppgift5.sln
+=======
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorium4Tests", "..\Laboratorium4Tests\Laboratorium4Tests.csproj", "{D65E6AF1-5B4C-4482-8A8E-0AFBDBCFB1C5}"
+>>>>>>> a6dc8de85240e904a9a168cc5f350df8df7c9840:Laboratorium4.sln
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{9E1C2C6D-BA96-4222-B32D-D44A6F58F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1C2C6D-BA96-4222-B32D-D44A6F58F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1C2C6D-BA96-4222-B32D-D44A6F58F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65E6AF1-5B4C-4482-8A8E-0AFBDBCFB1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65E6AF1-5B4C-4482-8A8E-0AFBDBCFB1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65E6AF1-5B4C-4482-8A8E-0AFBDBCFB1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65E6AF1-5B4C-4482-8A8E-0AFBDBCFB1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

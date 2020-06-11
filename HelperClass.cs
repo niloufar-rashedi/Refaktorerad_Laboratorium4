@@ -73,7 +73,7 @@ namespace Laboratorium4
             {
                 ProductName = "Towel",
                 ProductId = 8,
-                Price = 16.9m,
+                Price = 26.9m,
                 Shop = new List<Shop>()
                     {
                         new Shop()
@@ -154,19 +154,6 @@ namespace Laboratorium4
         public void Run()
         {
 
-            var path = GetUserHomePath();
-            var programPath = Path.Combine(path, "Lab4");
-            var jsonPath = Path.Combine(programPath, "Products.json");
-
-            SaveToJson(jsonPath, products);
-
-            var records = LoadFromJson<Product>(jsonPath);
-
-                foreach (var p in records)
-                {
-                    Console.WriteLine(p.ProductName);
-                }
-
 
             Console.WriteLine("Producer\tProducts");
             ProducerVsProducts();
@@ -179,14 +166,18 @@ namespace Laboratorium4
 
         public void SortByID()
         {
-            var query = products.OrderBy(c => c.ProductId);
+            //Nareerat
+            var sortedList = products.OrderBy(q => q.ProductId).ToList();
 
-            Console.WriteLine("Products sorted by their ID are: ");
-            foreach (var p in query)
+
+            Console.WriteLine("\nAfter sort by Id:");
+            foreach (Product product in sortedList)
             {
-                Console.WriteLine(p.ProductId);
+                Console.WriteLine(product);
             }
+            products = sortedList;
         }
+        //Niloufar
         public void PriceFilteration()
         {
             var lessThanFifty = products.Where(s => s.Price <= 50.0M).ToList();
@@ -195,6 +186,7 @@ namespace Laboratorium4
                 Console.WriteLine(priceList.Price + " SEK costs one: " + priceList.ProductName);
             }
         }
+        //Niloufar
 
         public void ProducerVsProducts()
         {
@@ -212,39 +204,16 @@ namespace Laboratorium4
             }
 
         }
-        //public string GetUserHomePath()
-        //{
-        //    return
-        //        Environment.GetFolderPath(Environment.SpecialFolder.UserProfile,
-        //            Environment.SpecialFolderOption.DoNotVerify);
-        //}
-        //public static void RunProgram()
-        //{
-        //    if (!File.Exists(HelperClass().Run().programPath))
-        //    {
-        //        File.Create(programPath);
-        //    }
-        //}
-        //public static void ProgramStart()
-        //{
-        //    if (!Directory.Exists( ))
-        //    {
-        //        Directory.CreateDirectory(Json.programPath);
-        //    }
+        //Josh
+        public void SearchForProductByPrice(decimal productPrice)
+        {
+            int count = products.Count(p => p.Price <= productPrice);
+            Console.WriteLine($"Found {count} results:");
 
-        //    UI.MainMenuInterface();
-        //}
-        //public IEnumerable<T> LoadFromJson<T>(string filePath)
-        //{
-        //    var jsonString = File.ReadAllText(filePath);
-        //    var records = System.Text.Json.JsonSerializer.Deserialize<List<T>>(jsonString);
-        //    return records;
-        //}
-
-        //public void SaveToJson<T>(string filePath, IEnumerable<T> records)
-        //{
-        //    var jsonString = System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(records);
-        //    File.WriteAllBytes(filePath, jsonString);
-        //}
+            foreach (var product in products.Where(product => product.Price <= productPrice))
+            {
+                Console.WriteLine(product);
+            }
+        }
     }
 }
