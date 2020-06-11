@@ -73,7 +73,7 @@ namespace Laboratorium4
             {
                 ProductName = "Towel",
                 ProductId = 8,
-                Price = 16.9m,
+                Price = 26.9m,
                 Shop = new List<Shop>()
                     {
                         new Shop()
